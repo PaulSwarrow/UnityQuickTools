@@ -22,7 +22,7 @@ public class GenericMap<TValue> : Dictionary<Type, TValue>
         return ContainsKey(type) ? (T) this[type] : default(T);
     }
 
-    public void Set<T>(T value) where T : TValue
+    public void Set(TValue value)
     {
         this[value.GetType()] = value;
     }
