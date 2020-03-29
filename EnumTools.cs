@@ -1,6 +1,6 @@
 using System;
 
-namespace Ps.Utils
+namespace Lib.UnityQuickTools
 {
     public static class EnumTools
     {
