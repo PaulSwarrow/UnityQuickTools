@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using Game;
 
 public class GenericMap<TValue> : Dictionary<Type, TValue>
 {
